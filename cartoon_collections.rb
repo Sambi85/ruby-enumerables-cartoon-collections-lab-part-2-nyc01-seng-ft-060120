@@ -16,8 +16,7 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-pp planeteer_calls
   
-valid_calls.find do |array| array == valid_calls
+planeteer_calls.find do |array| array == valid_calls
 end
 end
